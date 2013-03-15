@@ -31,11 +31,10 @@ end
 group :assets do
   gem 'sass-rails',   '3.2.5'
   gem 'coffee-rails', '3.2.2'
+  gem 'uglifier', '1.2.3'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer', :platforms => :ruby
-
-  gem 'uglifier', '1.2.3'
+  # gem 'therubyracer', :platforms => :ruby  
 end
 
 #gem 'wdm', '0.1.0'
