@@ -17,6 +17,9 @@ end
 
 group :development do
 	gem 'annotate', '2.5.0'
+	gem 'rb-inotify', :require => false
+  	gem 'rb-fsevent', :require => false
+  	gem 'wdm', :platforms => [:mswin, :mingw], :require => false
 end
 
 # Gems used only for assets and not required
@@ -33,7 +36,7 @@ end
 
 gem 'jquery-rails', '2.0.2'
 
-gem 'wdm', '0.1.0'
+#gem 'wdm', '0.1.0'
 
 group :test do
 	gem 'capybara', '1.1.2'
